@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body> 
+    <div class="search-bar">
+        <form method="get">
+            <img src="./assets/icons/location.png" alt="">
+            <input type="search" placeholder="Enter your location here" required spellcheck="false">
+            <button><img src="./assets/icons/magnifying-glass-solid.svg" alt="search"></button>
+        </form>
+
+    </div>
+    <div class="msg">
+                <span id="msg-main">Welcome</span>
+                <span id="sub-msg">Enter location to continue</span>
+    </div>
+    <div class="main-app">
+    <div class="container">
+        <div class="sub-container-1">
+            <span id="head">
+                <h1></h1>
+                <p></p>
+            </span>
+            <div class="w-info">
+                <span class="condition">
+                    <img src="" id="weather-condition-png" alt="">
+                    <span id="condit-info"></span>
+                    
+                </span>
+                <span class="temperature">
+                <span>
+            </div>
+        </div>
+
+        <div class="sub-container-2">
+           <div class="air-data">
+
+               <div>
+                   <span>Humidity</span>
+                   <span id="humidity"></span>
+               </div>
+               <div>
+                   <span>Wind Speed</span>
+                   <span id="w-speed"></span>
+               </div>
+               <div>
+                   <span>UV</span>
+                   <span>--</span>
+               </div>
+               <div>
+                   <span>Pressure</span>
+                   <span id="pressure"></span>
+               </div>
+               <div>
+                   <span>Wind Direction</span>
+                   <span id="w-direction"></span>
+               </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+    <footer>
+          <span>credit : <span>Akash Pawar</span></span>
+          <span> Connect me on Linledin :<a href="https://www.linkedin.com/in/akash-pawar-5a78b7269?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Click here</a></span>
+   </footer>
+    <script src="./app.js"></script>
+</body>
+</html>

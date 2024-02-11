@@ -186,7 +186,7 @@ footer {
     flex-direction: column;
     gap: 0.5rem;
    }
-    #sub-msg {
+    #sub-msg ,#head > p{
     font-size: 1.3rem;
 }
 }
